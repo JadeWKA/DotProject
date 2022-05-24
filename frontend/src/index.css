@@ -40,6 +40,14 @@ h2 {
   font-weight: bold;
 }
 
+h4 a {
+  text-decoration: none;
+}
+
+h5 a {
+  text-decoration: none;
+}
+
 .aboutUsCard {
   background-color: white;
   border-radius: 4px;
@@ -137,6 +145,16 @@ h2 {
   width: 30rem;
   margin: 2.7rem;
 }
+
+.card-body {
+  text-align: left;
+}
+
+.card-body a {
+  text-decoration: none;
+  text-align: left;
+}
+
 .card-title {
   color: #000000;
 }

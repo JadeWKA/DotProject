@@ -41,11 +41,25 @@ function MyProfileCard() {
                 <h5>LOCATION: {userData.countryName}</h5>
                 <h5>LOOKING FOR: {userData.lookingFor}</h5>
                 <h5>OCCUPATION: {userData.job}</h5> */}
-                <p> AGE: {userData.age}</p>
-                <p>GENDER: {userData.gender}</p>
-                <p>LOCATION: {userData.countryName}</p>
-                <p>LOOKING FOR: {userData.lookingFor}</p>
-                <p>OCCUPATION: {userData.job}</p>
+                <p>
+                  {" "}
+                  AGE: <font color="red">{userData.age}</font>
+                </p>
+                <p>
+                  GENDER: <font color="red">{userData.gender}</font>
+                </p>
+                <p>
+                  LOCATION: <font color="red">{userData.countryName}</font>
+                </p>
+                <p>
+                  LOOKING FOR: <font color="red">{userData.lookingFor}</font>
+                </p>
+                <p>
+                  OCCUPATION: <font color="red">{userData.job}</font>
+                </p>
+                <p>
+                  LAST SHOUTOUT: <font color="red">{userData.yourMind}</font>
+                </p>
               </div>
             </Card.Body>
             <Card.Img

@@ -56,13 +56,25 @@ function ExplorePage() {
                 <p />
                 <p />
 
-                <h5>AGE: {users.age}</h5>
-                <h5>GENDER: {users.gender}</h5>
-                <h5>LOCATION: {users.countryName}</h5>
-                <h5>LOOKING FOR: {users.lookingFor}</h5>
-                <h5>OCCUPATION: {users.job}</h5>
+                <h5>
+                  AGE: <font color="red">{users.age}</font>
+                </h5>
+                <h5>
+                  GENDER: <font color="red">{users.gender}</font>
+                </h5>
+                <h5>
+                  LOCATION: <font color="red">{users.countryName}</font>
+                </h5>
+                <h5>
+                  LOOKING FOR: <font color="red">{users.lookingFor}</font>
+                </h5>
+                <h5>
+                  OCCUPATION: <font color="red">{users.job}</font>
+                </h5>
                 <p />
-                <h5>LAST SHOUTOUT: {users.yourMind}</h5>
+                <h5>
+                  LAST SHOUTOUT: <font color="red">{users.yourMind}</font>
+                </h5>
                 <center>
                   <img
                     alt="avatar"
