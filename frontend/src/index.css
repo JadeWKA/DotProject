@@ -267,6 +267,15 @@ h5 a {
   background-image: url("https://firebasestorage.googleapis.com/v0/b/dot-auth-dev.appspot.com/o/profile-photos%2Fdot-mountain-bg.jpg?alt=media&token=9545d786-cfae-48d7-90f1-b70d89e089bc");
 }
 
+carousel-item.homepageCaption {
+  font: "Merriweather", serif;
+  size: 30px;
+}
+
+.card-body.homepageCaption {
+  font: 30px;
+}
+
 .hometown {
   width: 100%;
 }
