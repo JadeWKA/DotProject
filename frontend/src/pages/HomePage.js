@@ -69,11 +69,9 @@ function HomePage() {
             <Card.Body>
               {/* <Card.Title>FIND YOUR PERFECT MATCH TODAY!</Card.Title> */}
               <Card.Text>
-                <div className="homepageCaption">
-                  Sign up for Dot quickly and easily with just an email address
-                  and password. You never know, your soul mate may just be there
-                  waiting for you!
-                </div>
+                Sign up for Dot quickly and easily with just an email address
+                and password. You never know, your soul mate may just be there
+                waiting for you!
               </Card.Text>
             </Card.Body>
           </Card>
